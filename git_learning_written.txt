@@ -60,7 +60,6 @@ to stop the merge we use git merge --abort
 
 git remote add <repo_mame # generally origin> <url>
 
-testing if this is working!!!
 
 
 
