@@ -1,0 +1,89 @@
+git --version //tells version
+ls // lsit all files ** for windows its diff its dir** 
+
+git config --global user.name _input_
+git config --global user.email _input_
+
+mkdir yajatfolder // one folder named yajatfolder
+mkdir Yajat folder// 2 folders named Yajat and folder.
+
+cd .. // returns back to parent folder(directory)
+git init // makes .git to track
+
+git init dir_name // creates a folder with dir_name and tracks it i.e creates .git file
+
+git add file_name // adds file to staging area. ... index file is created which is basically our staging area.
+
+
+object folder shows commit hisotry and its where out commit is.
+
+git reset HEAD -- file_name_with_.whatever // remvoes that file from the staging area and does not track(confirm karun baghu)
+
+
+branch is an pointer to commit NOT SIMILAR TO TREE BRANCHES AND ALL!!!.
+
+
+git branch // git branch --> shows current branch ur on 
+git branch name_branch // makes new branch whioch points to the asme branch as HEAD	.
+
+*** take a note this does enter u into the new branch***
+---switching branches---
+
+git branch <branch_name> // to just make the branch.
+git checkout -b <branch_aname> \\ to make branch and go to it
+git checkout <branch_name> // goes to that branch
+
+it changes the contet of working directory too // refer ss for this 
+now lets assume we have
+blue purple in master branch content, and we addd branch feature1 and commit by adding green.
+if we do git checkout master then it will only show blue purple, and if we do git checkout feature1 it will show us blue purple green.
+
+
+MERGING
+
+fast forward merge 
+ . go to the branch with which u wanna merge
+git merge <branch_name>
+
+now that we merged but the there is stil the feature one pointer still there so to remove it we do 
+git branch -d feature1
+
+ 3 way merge
+
+
+to stop the merge we use git merge --abort
+
+
+
+###git remote add###
+ 
+
+git remote add <repo_mame # generally origin> <url>
+
+testing if this is working!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
